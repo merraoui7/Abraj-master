@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:layout_marginTop="50dp"
+    android:background="@drawable/bg_pick_item"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/logo1"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aries"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:id="@+id/name"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="21 مارس - 20 يونيو"
+        android:gravity="center"
+        android:textSize="10dp"
+        android:id="@+id/date"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

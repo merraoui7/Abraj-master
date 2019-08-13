@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_cancer"
+            android:checked="true"
+            android:title="أبراجي" />
+        <item
+            android:id="@+id/nav_features"
+            android:icon="@drawable/ic_aquarius"
+            android:title="مميزات برجك" />
+        <item
+            android:id="@+id/nav_year"
+            android:icon="@drawable/ic_moon"
+            android:title="برجك هذه السنة" />
+        <item
+            android:id="@+id/nav_chinese"
+            android:icon="@drawable/ic_japanese_dragon"
+            android:title="الأبراج الصينية" />
+    </group>
+
+    <item android:title="المزيد">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="شارك التطبيق" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="قيم التطبيق" />
+        </menu>
+    </item>
+
+</menu>
